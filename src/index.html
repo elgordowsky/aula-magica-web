@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación Web</title>    
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="container mx-auto px-4">
+<div>   
+
+    <header class="bg-gradient-to-r from-orange-400 via-pink-500 to-red-500 flex flex-col md:flex-row items-center py-6">
+        <a href="index.html"><img src="../img/logo_aula_magica3.PNG" alt="logo" width="200px" class="w-32 md:w-48 lg:w-52 ml-0 md:ml-9 mb-4 md:mb-0"></a>
+        <div class="mx-auto text-center">
+            <a href="index.html"><h1 class=" font-fancy font-extrabold text-4xl md:text-6xl lg:text-8xl text-yellow-500">Aula Mágica</h1></a>
+            <p class="font-bold font-serif text-3xl text-yellow-400">Jardín Infantil</p>
+        </div>
+    </header>
+     
+    <nav class="my-5 overflow-x-auto">
+        <ul class="flex flex-wrap md:flex-nowrap justify-center gap-4 md:space-x-6 text-base md:text-lg text-pink-500 font-bold min-w-max px-4">
+                
+                <li class="hover:text-yellow-400"><a href="index.html" class="flex items-center space-x-2"><img src="/img/icono-jardin.png" alt="icono-inicio" width="30px">INICIO</a></li>
+                <li class="hover:text-yellow-400"><a href="admisiones.html" class="flex items-center space-x-2"><img src="/img/icono-dibujar.png" alt="icono-admisiones" width="30px">ADMISIONES</a></li>
+                <li class="hover:text-yellow-400"><a href="curriculo.html" class="flex items-center space-x-2"><img src="/img/icono-curriculo.png" alt="icono-curriculo" width="30px">CURRICULO</a></li>
+                <li class="hover:text-yellow-400"><a href="cronograma.html" class="flex items-center space-x-2"><img src="/img/icono-cronograma.png" alt="icono-cronograma" width="30px">CRONOGRAMA</a></li>
+                <li class="hover:text-yellow-400"><a href="about_us.html" class="flex items-center space-x-2"><img src="/img/icono-nosotros.png" alt="icono-nosotros" width="30px">NOSOTROS</a></li>
+                <li class="hover:text-yellow-400"><a href="services.html" class="flex items-center space-x-2"><img src="/img/icono-servicios.png" alt="icono-servicios" width="30px">SERVICIOS</a></li>
+                <li class="hover:text-yellow-400"><a href="contacto.html" class="flex items-center space-x-2"><img src="/img/icono-contacto.png" alt="icono-contacto" width="30px">CONTACTO</a></li>
+        </ul>
+    </nav>
+    <section class="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-4 mb-10 md:mb-20">
+        <div class="flex items-center w-full md:w-1/4 text-center md:text-left font-extrabold text-3xl md:text-5xl lg:text-6xl text-pink-500">
+            <h1>Queremos compartir contigo la magia de aprender.</h1>
+        </div>
+        <div class="relative w-full md:w-3/4 h-[300px] md:h-[400px] lg:h-[600px] overflow-hidden">
+            <div class="absolute inset-0" id="gallery">
+                <img src="/img/jardin1.jpg" alt="Imagen jardin 1" class="w-full h-full object-cover absolute top-0 left-0">
+                <img src="/img/jardin2.jpg" alt="Imagen jardin 2" class="w-full h-full object-cover absolute top-0 left-0 opacity-0">
+                <img src="/img/jardin3.jpg" alt="Imagen jardin 3" class="w-full h-full object-cover absolute top-0 left-0 opacity-0">
+            </div>
+        </div>
+    </section>
+
+    <section class="flex flex-col lg:flex-row items-center bg-pink-500 m-5 p-6 lg:p-10 rounded-lg shadow-lg space-y-6 lg:space-y-0 lg:space-x-10">
+        <div class="w-full lg:w-1/2">
+            <img src="/img/jardin4.jpg" alt="Imagen jardin 4" class="w-full h-auto rounded-lg shadow-md">
+        </div>
+        <div class="w-full lg:w-1/2 text-center lg:text-left text-lg text-stone-50 space-y-4">
+            <h2 class="font-bold text-yellow-400 text-2xl lg:text-3xl">Aula Mágica es un jardín infantil diseñado para inspirar</h2>
+            <p class="leading-relaxed">Nuestro enfoque se basa en el aprendizaje a través de la exploración y la autonomía. Creemos que cada niño es único y tiene su propio ritmo, por eso promovemos un espacio donde puedan satisfacer sus necesidades emocionales y sociales, fortaleciendo la confianza, la libertad, el sentido de pertenencia y la creatividad. En Aula Mágica, los pequeños se sienten libres de expresar sus ideas, de interactuar con sus pares y de enfrentar nuevos desafíos.</p>
+            <p class="leading-relaxed">Trabajamos en proyectos integrados que permiten a los niños experimentar y aprender de forma bilingüe, brindándoles una visión enriquecida del mundo. Estos proyectos son el centro de nuestras actividades diarias, ayudando a que el aprendizaje sea natural y duradero. Te invitamos a ser parte de esta experiencia educativa única, donde el desarrollo integral y la felicidad de cada niño son nuestra prioridad. ¡Descubre el mágico mundo de Aula Mágica y acompáñanos en este viaje de descubrimiento y crecimiento!</p>
+        </div>
+    </section>
+    
+
+    <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-4 md:p-10 bg-white rounded-lg shadow-lg font-bold">
+        
+        <div class="bg-yellow-400 mt-5 rounded-lg p-4 md:p-6 shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
+            <h2 class="text-pink-500 font-bold mb-5 text-xl">Aprendizaje Basado en Valores y Relaciones</h2>
+            <p class="text-stone-50 text-base">En Aula Mágica, el desarrollo integral de los niños incluye el fortalecimiento de valores esenciales como el respeto, la empatía, y la cooperación. Creemos que el aprendizaje va más allá del conocimiento académico; por eso, nuestra metodología incluye dinámicas que promueven relaciones saludables y fomentan la resolución de conflictos, la toma de decisiones y el trabajo en equipo. Los niños se sienten valorados y reconocidos en cada logro, grande o pequeño, lo que crea un ambiente de comunidad y pertenencia en el jardín. Aquí, el respeto mutuo y la alegría de aprender son pilares que guían cada actividad y cada proyecto.</p>
+            <img src="/img/manualidades13.jpg" alt="manualidades1" class="w-full h-auto rounded-lg shadow-md my-14">
+        </div>
+        
+        <div class="bg-yellow-400 mt-5 rounded-lg p-4 md:p-6 shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
+            <h2 class="text-pink-500 font-bold mb-5 text-xl">Enfoque Bilingüe y Multisensorial</h2>
+            <p class="text-stone-50 text-base">La metodología de Aula Mágica se distingue por su enfoque bilingüe y multisensorial, el cual enriquece el aprendizaje y expande la visión del mundo desde una edad temprana. Nuestros proyectos bilingües son diseñados para que los niños adquieran habilidades en un segundo idioma mientras exploran el entorno, la naturaleza y su propia creatividad. A través de actividades que involucran los sentidos y la experimentación directa, los niños no solo aprenden palabras y conceptos, sino que también se divierten en un entorno que estimula su mente y desarrolla su inteligencia emocional, social y cultural.</p>
+            <img src="/img/manualidades.jpg" alt="manualidades2" class="w-full h-auto rounded-lg shadow-md my-14">
+        </div>
+        
+        
+        <div class="bg-yellow-400 mt-5 rounded-lg p-4 md:p-6 shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
+            <h2 class="text-pink-500 font-bold mb-5 text-xl">Metodología Centrada en el Niño</h2>
+            <p class="text-stone-50 text-base">En Aula Mágica, creemos que cada niño tiene un potencial único que merece ser explorado y fomentado. Nuestra metodología se basa en el respeto a sus tiempos y a sus intereses, promoviendo una educación activa donde cada niño y niña puede aprender desde su propia curiosidad y motivación. Nuestro equipo docente se dedica a crear un ambiente cálido y seguro que les permita a los niños descubrir, experimentar y desarrollar su creatividad, autonomía y confianza. Este enfoque centrado en el niño permite que cada uno desarrolle habilidades esenciales de manera natural y a su propio ritmo.</p>
+            <img src="/img/manualidades18.jpg" alt="manualidades1" class="w-full h-auto rounded-lg shadow-md my-14">
+        </div>
+    </section>
+    <section>
+        <div class="text-center my-8">
+            <a href="admisiones.html">
+                <button class="bg-pink-500 hover:bg-yellow-500 text-stone-50 font-bold py-4 px-8 rounded-lg text-xl shadow-md transition-all duration-300">
+                    Solicita Admisión
+                </button>
+            </a>
+        </div>
+    </section>
+    
+    
+    <footer class="bg-white text-yellow-400 py-8">
+        <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-6">
+            
+            <div>
+                <h3 class="font-bold text-lg mb-3 text-yellow-400">Contáctanos</h3>
+                <p class="text-black">Dirección: Calle Ficticia #123, Ciudad</p>
+                <p class="text-black">Teléfono: (123) 456-7890</p>
+                <p class="text-black">Email: contacto@aulamagica.com</p>
+            </div>
+            
+            <div>
+                <h3 class="font-bold text-lg mb-3 text-yellow-400">Enlaces Rápidos</h3>
+                <ul class="space-y-2 text-black">
+                    <li><a href="admisiones.html" class="hover:text-yellow-400">Admisiones</a></li>
+                    <li><a href="about_us.html" class="hover:text-yellow-400">Nosotros</a></li>
+                    <li><a href="services.html" class="hover:text-yellow-400">Servicios</a></li>
+                    <li><a href="contacto.html" class="hover:text-yellow-400">Contacto</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3 class="font-bold text-lg mb-3 text-yellow-400">Síguenos</h3>
+                <div class="flex space-x-4">
+                    <a href="https://www.facebook.com/" class="text-pink-500 hover:text-yellow-400"><i class="fab fa-facebook-f"></i> <img src="/img/facebook.png" alt="icono-facebook" width="30px"></a>
+                    <a href="https://www.instagram.com/" class="text-pink-500 hover:text-yellow-400"><i class="fab fa-instagram"></i> <img src="/img/logotipo-de-instagram.png" alt="icono-instagram" width="30px"></a>
+                    <a href="https://www.youtube.com/" class="text-pink-500 hover:text-yellow-400"><i class="fab fa-twitter"></i> <img src="/img/youtube.png" alt="icono-youtube" width="30px"></a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-8 text-sm text-gray-400">
+            <p>&copy; 2024 Aula Mágica. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+</div>
+</body>
+
+</html>
